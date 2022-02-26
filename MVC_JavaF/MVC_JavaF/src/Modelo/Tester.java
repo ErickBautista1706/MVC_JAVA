@@ -15,8 +15,8 @@ public class Tester {
 		ArrayList<String> renglonObtenido = new ArrayList<String>();
 		String leyenda;
                 //insertar
-                //leyenda= administradorBD.registrarAlta("tbusuarios", "null, 'Pedro','usuarioMartínez',1234");//Original
-                leyenda= administradorBD.registrarAlta("seguimiento_clientes", "null, 2,'Puebla','Pedro','Licenciado','Calle1','Pachuca','12','jose@usuario',551121110,778815227,02,'Unica','2022-01-21',10,125.25,500.25,10,375.0,'Mensual','2021-01-21 18:00:00','Realizado','2021-01-31 18:00:00','Realizado','2021-02-10 18:00:00','Realizado','2021-02-21 18:00:00','Pendiente'");                
+                leyenda= administradorBD.registrarAlta("tbusuarios", "null, 'Pedro','usuarioMartínez',1234");//Original
+                //leyenda= administradorBD.registrarAlta("seguimiento_clientes", "null, 2,'Puebla','Pedro','Licenciado','Calle1','Pachuca','12','jose@usuario',551121110,778815227,02,'Unica','2022-01-21',10,125.25,500.25,10,375.0,'Mensual','2021-01-21 18:00:00','Realizado','2021-01-31 18:00:00','Realizado','2021-02-10 18:00:00','Realizado','2021-02-21 18:00:00','Pendiente'");                
                 System.out.println(leyenda);
                 
                 //modificar
