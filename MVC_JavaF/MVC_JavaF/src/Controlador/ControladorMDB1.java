@@ -41,9 +41,9 @@ public void actionPerformed(ActionEvent e) {
          
         //leyenda=_model.registrarAlta("tbusuarios"," null, ' " +_view.txtNombre.getText()+" ',' " +_view.txtUsuario.getText() +" ', "+_view.txtpsw.getText() ); //para el formulario de tbusuarios 
         
-        leyenda=_model.registrarAlta("seguimiento_clientes"," null, "+_view.jTextField1.getText()+" ,' "+_view.jTextField2.getText()+" ',' "+_view.jTextField3.getText() +" ',' "+_view.jTextField4.getText() +" ',' "+_view.jTextField5.getText()
-                +" ',' "+_view.jTextField6.getText() +" ',' "+_view.jTextField7.getText()+" ',' "+_view.jTextField8.getText() +" ', "+_view.txtFechaCredito.getText() +" , "+_view.txtNumCuotas.getText() +" , "
-                +_view.txtNumFactura.getText() +" ,' "+_view.txtTelResidencial.getText()+" ',' "+_view.txtTelTrabajo.getText() +" ', "+_view.txtTipoCartera.getText() +" , "+_view.txtValorCredito.getText() +" ' ");//para el formulario de seguimiento_clientes
+        leyenda=_model.registrarAlta("clientes",_view.jTextField1.getText()+" ,' "+_view.jTextField2.getText()+" ',' "+_view.jTextField3.getText() +" ',' "+_view.jTextField4.getText() +" ',' "+_view.jTextField5.getText()
+                +" ',' "+_view.jTextField6.getText() +" ',' "+_view.jTextField7.getText()+" ',' "+_view.jTextField8.getText() +" ', "+_view.txtTelResidencial.getText() +" , "+_view.txtTelTrabajo.getText() +" , "
+                +_view.txtNumFactura.getText() +" ,' "+_view.txtFechaCredito.getText()+" ',' "+_view.txtTipoCartera.getText() +" ', "+_view.txtValorCredito.getText() +" , "+_view.txtNumCuotas.getText());//para el formulario de seguimiento_clientes
         
         //Se puede usar una variable o el control, lo ideal es que se pudiera llamar una función de
        // validación aquí sobre los datos obteindos de las cajas de texto
@@ -72,13 +72,17 @@ public void actionPerformed(ActionEvent e) {
    _view.jTextField6.setText(null);
    _view.jTextField7.setText(null);
    _view.jTextField8.setText(null);
-   _view.txtFechaCredito.setText(null);
-   _view.txtNumCuotas.setText(null);
-   _view.txtNumFactura.setText(null);
    _view.txtTelResidencial.setText(null);
    _view.txtTelTrabajo.setText(null);
+   _view.txtNumFactura.setText(null);
+   _view.txtFechaCredito.setText(null);
    _view.txtTipoCartera.setText(null);
    _view.txtValorCredito.setText(null);
+   _view.txtNumCuotas.setText(null);
+   
+
+   
+   
 
     }
     
