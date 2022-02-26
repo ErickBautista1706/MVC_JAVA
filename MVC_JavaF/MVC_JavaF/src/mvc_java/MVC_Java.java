@@ -6,7 +6,9 @@
 package mvc_java;
 
 import Controlador.ControladorMDB;
+import Controlador.ControladorMDB2;
 import Modelo.MDB;
+import Vista.FrmVista;
 //import Vista.FrmVista; //para el formulario de tbusuarios 
 import Vista.FrmVista2;//para el formulario de seguimiento_clientes
 
@@ -23,8 +25,8 @@ public class MVC_Java {
         // TODO code application logic here
         
         MDB objModelo=new MDB();
-        //FrmVista objVista=new FrmVista();//para el formulario de tbusuarios 
-        FrmVista2 objVista=new FrmVista2();//para el formulario de seguimiento_clientes
+        FrmVista objVista=new FrmVista();//para el formulario de tbusuarios 
+        //FrmVista2 objVista=new FrmVista2();//para el formulario de seguimiento_clientes
         ControladorMDB objController;
         
       
